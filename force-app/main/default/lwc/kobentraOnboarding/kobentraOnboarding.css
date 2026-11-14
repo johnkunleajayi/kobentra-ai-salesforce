@@ -1,0 +1,72 @@
+:host {
+  display: block;
+  color: #0b1220;
+  font-family: Arial, sans-serif;
+  --slds-c-button-brand-color-background: #c84800;
+  --slds-c-button-brand-color-border: #c84800;
+}
+.shell {
+  position: relative;
+  max-width: 66rem;
+  margin: 0 auto;
+  padding: clamp(1.5rem, 5vw, 4rem);
+  background: #fff;
+  border: 1px solid #e0e5ec;
+  border-radius: 1rem;
+}
+.eyebrow {
+  font-size: 0.7rem;
+  font-weight: 700;
+  letter-spacing: 0.16em;
+  color: #a84000;
+}
+h1 {
+  font-weight: 800;
+  letter-spacing: -0.04em;
+  font-size: clamp(2rem, 4vw, 3rem);
+  line-height: 1.12;
+  margin: 1rem 0;
+}
+header > p:last-child {
+  color: #526079;
+  line-height: 1.7;
+  margin-bottom: 2rem;
+}
+.form-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem 1.5rem;
+  margin-bottom: 1rem;
+}
+.actions {
+  margin-top: 2rem;
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+  flex-wrap: wrap;
+}
+.actions p {
+  color: #526079;
+  font-size: 0.8rem;
+  max-width: 24rem;
+  line-height: 1.6;
+}
+.notice {
+  background: #f7f8fa;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  line-height: 1.6;
+  border-radius: 0.5rem;
+}
+.error {
+  border-left: 3px solid #ba0517;
+}
+.error lightning-button {
+  display: block;
+  margin-top: 0.5rem;
+}
+@media (max-width: 600px) {
+  .form-grid {
+    grid-template-columns: 1fr;
+  }
+}

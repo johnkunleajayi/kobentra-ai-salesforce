@@ -1,0 +1,9 @@
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata"><deploymentStatus
+  >Deployed</deploymentStatus><enableReports
+  >true</enableReports><externalSharingModel
+  >Private</externalSharingModel><label>Market Preference</label><nameField
+  ><displayFormat>KMP-{00000}</displayFormat><label
+    >Market Preference Number</label><type
+    >AutoNumber</type></nameField><pluralLabel
+  >Market Preferences</pluralLabel><sharingModel
+  >Private</sharingModel></CustomObject>

@@ -1,0 +1,132 @@
+<template>
+  <section class="shell" aria-labelledby="profile-title">
+    <header>
+      <p class="eyebrow">KOBENTRA / YOUR BUSINESS</p>
+      <h1 id="profile-title">Ambition starts<br />with a clear profile.</h1>
+      <p>
+        Tell potential partners what your business does and where you want to
+        grow.
+      </p>
+    </header>
+    <template lwc:if={guest}
+      ><p class="notice" role="status">
+        Sign in with your provisioned business account to continue. Public
+        registration is not enabled.
+      </p></template
+    >
+    <template lwc:else>
+      <template lwc:if={busy}
+        ><lightning-spinner
+          alternative-text="Saving or loading business profile"
+          size="small"
+        ></lightning-spinner
+      ></template>
+      <template lwc:if={error}
+        ><div class="notice error" role="alert">
+          {error}<lightning-button
+            label="Retry loading"
+            onclick={load}
+            disabled={busy}
+          ></lightning-button></div
+      ></template>
+      <template lwc:if={success}
+        ><p class="notice" role="status">{success}</p></template
+      >
+      <div class="form-grid">
+        <lightning-input
+          name="name"
+          label="Registered business name"
+          value={profile.name}
+          maxlength="255"
+          required
+          onchange={change}
+          disabled={busy}
+        ></lightning-input>
+        <lightning-input
+          name="country"
+          label="Business country"
+          value={profile.country}
+          maxlength="80"
+          required
+          onchange={change}
+          disabled={busy}
+        ></lightning-input>
+        <lightning-combobox
+          name="industry"
+          label="Industry"
+          value={profile.industry}
+          options={industries}
+          required
+          onchange={change}
+          disabled={busy}
+        ></lightning-combobox>
+        <lightning-input
+          name="targetCountry"
+          label="Target country"
+          value={profile.targetCountry}
+          maxlength="80"
+          required
+          onchange={change}
+          disabled={busy}
+        ></lightning-input>
+        <lightning-combobox
+          name="intent"
+          label="Partnership interest"
+          value={profile.intent}
+          options={interests}
+          required
+          onchange={change}
+          disabled={busy}
+        ></lightning-combobox>
+        <lightning-input
+          name="email"
+          type="email"
+          label="Primary business contact email"
+          value={profile.email}
+          maxlength="80"
+          required
+          onchange={change}
+          disabled={busy}
+        ></lightning-input>
+        <lightning-input
+          name="firstName"
+          label="Contact first name"
+          value={profile.firstName}
+          maxlength="40"
+          onchange={change}
+          disabled={busy}
+        ></lightning-input>
+        <lightning-input
+          name="lastName"
+          label="Contact last name"
+          value={profile.lastName}
+          maxlength="80"
+          required
+          onchange={change}
+          disabled={busy}
+        ></lightning-input>
+      </div>
+      <lightning-textarea
+        name="summary"
+        label="Business capabilities and description"
+        value={profile.summary}
+        maxlength="1200"
+        required
+        onchange={change}
+        disabled={busy}
+      ></lightning-textarea>
+      <div class="actions">
+        <lightning-button
+          variant="brand"
+          label="Save business profile"
+          onclick={save}
+          disabled={busy}
+        ></lightning-button>
+        <p>
+          Existing business membership is preserved. No duplicate Account is
+          created.
+        </p>
+      </div>
+    </template>
+  </section>
+</template>

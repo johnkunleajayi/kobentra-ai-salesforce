@@ -1,0 +1,6 @@
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata"><fullName
+  >Business__c</fullName><deleteConstraint>Restrict</deleteConstraint><label
+  >Business</label><referenceTo>Account</referenceTo><relationshipLabel
+  >KobentraMarkets</relationshipLabel><relationshipName
+  >KobentraMarkets</relationshipName><required>true</required><type
+  >Lookup</type></CustomField>

@@ -1,0 +1,7 @@
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+  <fullName>Version__c</fullName>
+  <fieldManageability>DeveloperControlled</fieldManageability>
+  <label>Assessment Version</label>
+  <length>30</length>
+  <type>Text</type>
+</CustomField>

@@ -1,0 +1,234 @@
+﻿<template>
+    <div class="kobentra-site">
+        <a class="skip" href="#kobentra-main">Skip to content</a>
+
+        <header class="header">
+            <div class="brand">
+                <img class="logo" src={logoUrl} alt="Kobentra AI" width="170" height="57" />
+            </div>
+
+            <nav class="nav" aria-label="Main navigation">
+                <a href="#possibility">For businesses</a>
+                <a href="#how-it-works">How it works</a>
+                <a href="#opportunities">Opportunities</a>
+                <a href="#trust">Our approach</a>
+            </nav>
+
+            <div class="header-actions">
+                <button class="signin" type="button" onclick={start}>
+                    <template lwc:if={isAuthenticated}>My account</template>
+                    <template lwc:else>Sign in</template>
+                </button>
+                <button class="button small desktop-cta" type="button" onclick={start}>
+                    {actionLabel} <span aria-hidden="true">↗</span>
+                </button>
+            </div>
+        </header>
+
+        <main id="kobentra-main">
+            <section class="hero section">
+                <div class="hero-copy">
+                    <p class="eyebrow"><span></span>AFRICAN AMBITION. CONNECTED.</p>
+                    <h1>Your next big<br />opportunity starts<br />with a <em>connection.</em></h1>
+
+                    <div class="hero-bottom">
+                        <p>
+                            Meet the buyers, suppliers and partners who can move your
+                            business forward. Across West Africa. Beyond your network.
+                        </p>
+                        <div class="cta-row">
+                            <button class="button" type="button" onclick={start}>
+                                {actionLabel} <span aria-hidden="true">↗</span>
+                            </button>
+                            <a class="text-link" href="#how-it-works">
+                                See how it works <span aria-hidden="true">↗</span>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="hero-caption">
+                        <span class="tiny-dot"></span>
+                        Built around your business. Driven by your ambition.
+                    </div>
+                </div>
+
+                <div class="hero-art">
+                    <img src={images.hero}
+                         alt="African business professionals connecting at a business event"
+                         width="1672" height="941" fetchpriority="high" />
+                    <div class="image-topline">
+                        <span>NEW MARKETS. REAL CONNECTIONS.</span>
+                        <span>KOBENTRA AI</span>
+                    </div>
+                    <div class="hero-stamp">
+                        <span class="stamp-icon" aria-hidden="true">◎</span>
+                        <span>Local knowledge.<br />Wider horizons.</span>
+                        <span class="stamp-arrow" aria-hidden="true">↗</span>
+                    </div>
+                    <span class="image-note">Connections that move business forward.</span>
+                </div>
+            </section>
+
+            <div class="market-strip" aria-label="Kobentra business ecosystem">
+                <span>CONNECTED ACROSS OPPORTUNITIES</span>
+                <p>
+                    <span>Businesses</span><i aria-hidden="true">✳</i>
+                    <span>Partners</span><i aria-hidden="true">✳</i>
+                    <span>Markets</span><i aria-hidden="true">✳</i>
+                    <span>Possibilities</span>
+                </p>
+            </div>
+
+            <section class="section possibility" id="possibility">
+                <p class="eyebrow"><span></span>THE RIGHT PEOPLE CHANGE EVERYTHING</p>
+                <div class="section-heading">
+                    <h2>Big ambition.<br />Meet real possibility.</h2>
+                    <p>
+                        A great product deserves the right market. A growing business
+                        deserves the right partner. Kobentra is being built to bring
+                        those worlds together.
+                    </p>
+                </div>
+
+                <div class="editorial-grid">
+                    <article class="feature-large">
+                        <img src={images.entrepreneur}
+                             alt="African entrepreneur building her business"
+                             loading="lazy" width="1672" height="941" />
+                        <div class="feature-caption">
+                            <span>01 / BUILT FOR YOUR BUSINESS</span>
+                            <h3>You’ve built something.<br />Let’s help it go further.</h3>
+                            <a class="circle-link" href="#how-it-works"
+                               aria-label="Discover how Kobentra works">↗</a>
+                        </div>
+                    </article>
+
+                    <div class="feature-stack">
+                        <article class="orange-card">
+                            <span class="orange-symbol" aria-hidden="true">◎</span>
+                            <h3>Your market doesn’t<br />end at the border.</h3>
+                            <p>
+                                The right connections can help ambitious businesses
+                                explore opportunities beyond their existing networks.
+                            </p>
+                            <a href="#opportunities">
+                                Explore the possibilities <span aria-hidden="true">↗</span>
+                            </a>
+                        </article>
+
+                        <article class="mini-image-card">
+                            <img src={images.partnerships}
+                                 alt="Business professionals building a partnership"
+                                 loading="lazy" width="1672" height="941" />
+                            <div>
+                                <span>BETTER TOGETHER</span>
+                                <h3>A handshake.<br />A new chapter.</h3>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+            </section>
+
+            <section class="how-preview section" id="how-it-works">
+                <div>
+                    <p class="eyebrow"><span></span>A CLEAR PATH FORWARD</p>
+                    <h2>From “what if”<br />to “let’s talk.”</h2>
+                    <p>
+                        Turn your business goals into a focused search for your
+                        next commercial connection.
+                    </p>
+                    <button class="button" type="button" onclick={start}>
+                        Get started <span aria-hidden="true">↗</span>
+                    </button>
+                </div>
+
+                <ol class="steps-preview">
+                    <li><span>01</span><h3>Tell us about your business</h3><span aria-hidden="true">↗</span></li>
+                    <li><span>02</span><h3>Discover relevant matches</h3><span aria-hidden="true">↗</span></li>
+                    <li><span>03</span><h3>Request an introduction</h3><span aria-hidden="true">↗</span></li>
+                    <li><span>04</span><h3>Move opportunities forward</h3><span aria-hidden="true">↗</span></li>
+                </ol>
+            </section>
+
+            <section class="section" id="opportunities">
+                <p class="eyebrow"><span></span>MORE WAYS TO MOVE FORWARD</p>
+                <div class="section-heading">
+                    <h2>Find your next opening.</h2>
+                    <button class="text-link text-button" type="button" onclick={workspace}>
+                        Explore your workspace <span aria-hidden="true">↗</span>
+                    </button>
+                </div>
+
+                <div class="story-grid">
+                    <article class="story">
+                        <img src={images.growth} alt="Business growth opportunities"
+                             loading="lazy" width="1672" height="941" />
+                        <div>
+                            <p class="eyebrow"><span></span>GROWTH</p>
+                            <h3>Think beyond your current market.</h3>
+                            <span class="story-arrow" aria-hidden="true">↗</span>
+                        </div>
+                    </article>
+
+                    <article class="story">
+                        <img src={images.events} alt="Business networking event"
+                             loading="lazy" width="1672" height="941" />
+                        <div>
+                            <p class="eyebrow"><span></span>EVENTS</p>
+                            <h3>Be in the room that matters.</h3>
+                            <span class="story-arrow" aria-hidden="true">↗</span>
+                        </div>
+                    </article>
+
+                    <article class="story">
+                        <img src={images.opportunities}
+                             alt="Illustration of business opportunity notifications"
+                             loading="lazy" width="1672" height="941" />
+                        <div>
+                            <p class="eyebrow"><span></span>OPPORTUNITIES</p>
+                            <h3>Give your next opportunity a home.</h3>
+                            <span class="story-arrow" aria-hidden="true">↗</span>
+                        </div>
+                    </article>
+                </div>
+
+                <p class="art-disclaimer">
+                    Marketing images are illustrative. Embedded notifications,
+                    metrics and controls are artwork, not live product results.
+                </p>
+            </section>
+
+            <section class="trust section" id="trust">
+                <span class="trust-icon" aria-hidden="true">◇</span>
+                <div>
+                    <p class="eyebrow"><span></span>CONNECTION STARTS WITH CONSENT</p>
+                    <h2>Your business.<br />Your connections.<br />Your choice.</h2>
+                    <p>
+                        Introductions should open doors, not expose your details.
+                        The planned workflow requires both sides to agree before
+                        private contact details are shared.
+                    </p>
+                </div>
+                <div class="trust-mark">
+                    Together, we<br />go further.
+                    <span aria-hidden="true">✳</span>
+                </div>
+            </section>
+
+            <section class="final-cta section">
+                <p class="eyebrow"><span></span>YOUR NEXT CHAPTER</p>
+                <h2>Opportunity is out there.<br />Let’s make the connection.</h2>
+                <button class="button" type="button" onclick={start}>
+                    Get started with Kobentra <span aria-hidden="true">↗</span>
+                </button>
+                <p>Connect your business with new possibilities.</p>
+            </section>
+        </main>
+
+        <footer class="footer">
+            <img src={logoUrl} alt="Kobentra AI" width="170" height="57" />
+            <p>Connecting African ambition with opportunity.</p>
+            <span>© 2026 Kobentra AI</span>
+        </footer>
+    </div>
+</template>

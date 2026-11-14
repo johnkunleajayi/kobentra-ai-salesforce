@@ -1,0 +1,5 @@
+﻿<CustomField xmlns="http://soap.sforce.com/2006/04/metadata"><fullName
+  >Lead__c</fullName><deleteConstraint>SetNull</deleteConstraint><label
+  >Assessment Lead</label><referenceTo>Lead</referenceTo><relationshipName
+  >KobentraAssessments</relationshipName><type>Lookup</type></CustomField>
+

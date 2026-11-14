@@ -1,0 +1,7 @@
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata"><fullName
+  >Opportunity__c</fullName><deleteConstraint>Restrict</deleteConstraint><label
+  >Published Opportunity</label><referenceTo
+  >Kobentra_Opportunity__c</referenceTo><relationshipLabel
+  >KobentraInterests</relationshipLabel><relationshipName
+  >KobentraInterests</relationshipName><required>true</required><type
+  >Lookup</type></CustomField>

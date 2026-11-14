@@ -1,0 +1,10 @@
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata"><deploymentStatus
+  >Deployed</deploymentStatus><enableReports
+  >true</enableReports><externalSharingModel
+  >Private</externalSharingModel><label
+  >Partnership Opportunity</label><nameField><displayFormat
+    >KOP-{00000}</displayFormat><label
+    >Partnership Opportunity Number</label><type
+    >AutoNumber</type></nameField><pluralLabel
+  >Partnership Opportunities</pluralLabel><sharingModel
+  >Private</sharingModel></CustomObject>

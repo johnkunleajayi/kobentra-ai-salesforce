@@ -1,0 +1,3 @@
+<CustomPermission xmlns="http://soap.sforce.com/2006/04/metadata"><isLicensed
+  >false</isLicensed><label
+  >Kobentra Assessment Operator</label></CustomPermission>

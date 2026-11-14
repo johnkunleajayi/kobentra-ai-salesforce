@@ -1,0 +1,4 @@
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata"><fullName
+  >Business_Active__c</fullName><formula
+  >NOT(ISPICKVAL(Business__r.Kobentra_Access__c, &quot;Suspended&quot;))</formula><label
+  >Business Available</label><type>Checkbox</type></CustomField>

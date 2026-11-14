@@ -1,0 +1,16 @@
+<SharingRules xmlns="http://soap.sforce.com/2006/04/metadata">
+    <sharingCriteriaRules>
+        <fullName>Kobentra_Internal_Assessment_Processing</fullName><accessLevel
+    >Edit</accessLevel><booleanFilter>1 OR 2 OR 3 OR 4</booleanFilter>
+        <criteriaItems><field>Status__c</field><operation
+      >equals</operation><value>Requested</value></criteriaItems>
+        <criteriaItems><field>Status__c</field><operation
+      >equals</operation><value>Assigned</value></criteriaItems>
+        <criteriaItems><field>Status__c</field><operation
+      >equals</operation><value>Completed</value></criteriaItems>
+        <criteriaItems><field>Status__c</field><operation
+      >equals</operation><value>Review</value></criteriaItems>
+        <label>Kobentra Internal Assessment Processing</label><sharedTo><group
+      >Kobentra_Assessment_Operators</group></sharedTo>
+    </sharingCriteriaRules>
+</SharingRules>

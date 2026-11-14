@@ -1,0 +1,3 @@
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata"><fullName
+  >Category__c</fullName><label>Product Category</label><length
+  >100</length><type>Text</type></CustomField>

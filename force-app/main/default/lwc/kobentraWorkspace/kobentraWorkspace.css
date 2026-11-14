@@ -1,0 +1,138 @@
+:host {
+  display: block;
+  color: #0b1220;
+  font-family: Arial, sans-serif;
+  --slds-c-button-brand-color-background: #c84800;
+  --slds-c-button-brand-color-border: #c84800;
+}
+.workspace {
+  position: relative;
+  max-width: 84rem;
+  margin: 0 auto;
+  padding: clamp(1rem, 4vw, 3rem);
+  background: #f7f8fa;
+  border-radius: 1rem;
+}
+.eyebrow {
+  font-size: 0.7rem;
+  font-weight: 700;
+  letter-spacing: 0.15em;
+  color: #a84000;
+  margin-bottom: 0.8rem;
+}
+h1 {
+  font-size: clamp(2rem, 5vw, 3.5rem);
+  font-weight: 800;
+  letter-spacing: -0.045em;
+  line-height: 1.1;
+  margin-bottom: 1rem;
+}
+header > p:last-child {
+  color: #526079;
+}
+.toolbar {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  flex-wrap: wrap;
+  margin: 2rem 0;
+}
+.toolbar p,
+.disclaimer {
+  font-size: 0.8rem;
+  color: #526079;
+  line-height: 1.6;
+}
+.overview,
+.cards {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1.5rem;
+  margin-bottom: 2rem;
+}
+.panel {
+  padding: clamp(1.25rem, 3vw, 2rem);
+  border: 1px solid #e0e5ec;
+  border-radius: 0.8rem;
+  background: white;
+  min-width: 0;
+  overflow-wrap: anywhere;
+}
+.panel h2,
+.section-title {
+  font-size: 1.6rem;
+  font-weight: 700;
+  letter-spacing: -0.02em;
+  margin-bottom: 1rem;
+}
+.panel h3 {
+  font-size: 1.3rem;
+  font-weight: 700;
+  margin: 1rem 0;
+}
+.panel p {
+  line-height: 1.7;
+  margin-bottom: 1rem;
+}
+.business {
+  background: #0b1220;
+  color: #fff;
+  border-color: #0b1220;
+}
+.business .eyebrow {
+  color: #ffad73;
+}
+.business p,
+.business li {
+  color: #d0d8e4;
+}
+.business li {
+  margin: 0.5rem 0;
+}
+.form-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem 1.5rem;
+  margin: 1.5rem 0;
+}
+.actions {
+  display: flex;
+  gap: 0.75rem;
+  flex-wrap: wrap;
+  margin-top: 1rem;
+}
+.section-title {
+  margin-top: 2.5rem;
+}
+.notice {
+  padding: 1rem;
+  line-height: 1.7;
+  background: #fff;
+  border-left: 3px solid #c84800;
+  border-radius: 0.4rem;
+  margin: 1rem 0;
+}
+.error {
+  border-color: #ba0517;
+}
+.badge {
+  font-size: 0.7rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  color: #526079;
+}
+.reason {
+  border-left: 2px solid #ff6500;
+  padding-left: 1rem;
+  font-size: 0.85rem;
+}
+.disclaimer {
+  margin-bottom: 1rem;
+}
+@media (max-width: 700px) {
+  .overview,
+  .cards,
+  .form-grid {
+    grid-template-columns: 1fr;
+  }
+}

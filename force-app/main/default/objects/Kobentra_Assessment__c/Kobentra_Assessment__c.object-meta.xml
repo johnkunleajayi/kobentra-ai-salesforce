@@ -1,0 +1,9 @@
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata"><deploymentStatus
+  >Deployed</deploymentStatus><enableReports
+  >true</enableReports><externalSharingModel
+  >Private</externalSharingModel><label>Business Assessment</label><nameField
+  ><displayFormat>KQA-{00000}</displayFormat><label
+    >Business Assessment Number</label><type
+    >AutoNumber</type></nameField><pluralLabel
+  >Business Assessments</pluralLabel><sharingModel
+  >Private</sharingModel></CustomObject>

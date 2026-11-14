@@ -1,0 +1,2809 @@
+﻿{
+  "status": 0,
+  "result": {
+    "records": [
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v68.0/sobjects/EntityDefinition/Account"
+        },
+        "QualifiedApiName": "Account",
+        "Label": "Account",
+        "NamespacePrefix": null
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v68.0/sobjects/EntityDefinition/AccountBrand"
+        },
+        "QualifiedApiName": "AccountBrand",
+        "Label": "Account Brand",
+        "NamespacePrefix": null
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v68.0/sobjects/EntityDefinition/AccountCleanInfo"
+        },
+        "QualifiedApiName": "AccountCleanInfo",
+        "Label": "Account Clean Info",
+        "NamespacePrefix": null
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v68.0/sobjects/EntityDefinition/ActivationTarget"
+        },
+        "QualifiedApiName": "ActivationTarget",
+        "Label": "Activation Target",
+        "NamespacePrefix": null
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v68.0/sobjects/EntityDefinition/Address"
+        },
+        "QualifiedApiName": "Address",
+        "Label": "Address",
+        "NamespacePrefix": null
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v68.0/sobjects/EntityDefinition/AgentWork"
+        },
+        "QualifiedApiName": "AgentWork",
+        "Label": "Agent Work",
+        "NamespacePrefix": null
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v68.0/sobjects/EntityDefinition/AlternativePaymentMethod"
+        },
+        "QualifiedApiName": "AlternativePaymentMethod",
+        "Label": "Alternative Payment Method",
+        "NamespacePrefix": null
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v68.0/sobjects/EntityDefinition/AppointmentCategory"
+        },
+        "QualifiedApiName": "AppointmentCategory",
+        "Label": "Appointment Category",
+        "NamespacePrefix": null
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v68.0/sobjects/EntityDefinition/AppointmentInvitation"
+        },
+        "QualifiedApiName": "AppointmentInvitation",
+        "Label": "Appointment Invitation",
+        "NamespacePrefix": null
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v68.0/sobjects/EntityDefinition/AppointmentInvitee"
+        },
+        "QualifiedApiName": "AppointmentInvitee",
+        "Label": "Appointment Invitee",
+        "NamespacePrefix": null
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v68.0/sobjects/EntityDefinition/AppointmentTopicTimeSlot"
+        },
+        "QualifiedApiName": "AppointmentTopicTimeSlot",
+        "Label": "Appointment Topic Time Slot",
+        "NamespacePrefix": null
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v68.0/sobjects/EntityDefinition/ApprovalSubmission"
+        },
+        "QualifiedApiName": "ApprovalSubmission",
+        "Label": "Approval Submission",
+        "NamespacePrefix": null
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v68.0/sobjects/EntityDefinition/ApprovalSubmissionDetail"
+        },
+        "QualifiedApiName": "ApprovalSubmissionDetail",
+        "Label": "Approval Submission Detail",
+        "NamespacePrefix": null
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v68.0/sobjects/EntityDefinition/ApprovalWorkItem"
+        },
+        "QualifiedApiName": "ApprovalWorkItem",
+        "Label": "Approval Work Item",
+        "NamespacePrefix": null
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v68.0/sobjects/EntityDefinition/01Iaj00000GLj49"
+        },
+        "QualifiedApiName": "ArdiraSurvey__Answer_Choice__c",
+        "Label": "Ardira Answer Choice",
+        "NamespacePrefix": "ArdiraSurvey"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v68.0/sobjects/EntityDefinition/01Iaj00000GLj4J"
+        },
+        "QualifiedApiName": "ArdiraSurvey__Ardira_Record_Lifecycle_Action_History__c",
+        "Label": "Ardira Record Lifecycle Action History",
+        "NamespacePrefix": "ArdiraSurvey"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v68.0/sobjects/EntityDefinition/01Iaj00000GLj4K"
+        },
+        "QualifiedApiName": "ArdiraSurvey__Ardira_Record_Lifecycle_Management__c",
+        "Label": "Ardira Record Lifecycle Map",
+        "NamespacePrefix": "ArdiraSurvey"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v68.0/sobjects/EntityDefinition/01Iaj00000GLj4L"
+        },
+        "QualifiedApiName": "ArdiraSurvey__Ardira_Record_Lifecycle_Stage__c",
+        "Label": "Ardira Record Lifecycle Stage",
+        "NamespacePrefix": "ArdiraSurvey"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v68.0/sobjects/EntityDefinition/01Iaj00000GLj4S"
+        },
+        "QualifiedApiName": "ArdiraSurvey__Category__c",
+        "Label": "Ardira Category",
+        "NamespacePrefix": "ArdiraSurvey"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v68.0/sobjects/EntityDefinition/01Iaj00000GLj4T"
+        },
+        "QualifiedApiName": "ArdiraSurvey__CurrencyCode__mdt",
+        "Label": "Currency Code",
+        "NamespacePrefix": "ArdiraSurvey"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v68.0/sobjects/EntityDefinition/01Iaj00000GLj4U"
+        },
+        "QualifiedApiName": "ArdiraSurvey__Dialing_Code__mdt",
+        "Label": "Dialing Code",
+        "NamespacePrefix": "ArdiraSurvey"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v68.0/sobjects/EntityDefinition/01Iaj00000GLj4V"
+        },
+        "QualifiedApiName": "ArdiraSurvey__Document_Generation_Configuration__c",
+        "Label": "Document Generation Configuration",
+        "NamespacePrefix": "ArdiraSurvey"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v68.0/sobjects/EntityDefinition/01Iaj00000GLj4W"
+        },
+        "QualifiedApiName": "ArdiraSurvey__Document_Template__c",
+        "Label": "Document Template",
+        "NamespacePrefix": "ArdiraSurvey"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v68.0/sobjects/EntityDefinition/01Iaj00000GLj4X"
+        },
+        "QualifiedApiName": "ArdiraSurvey__Insights_Summary__c",
+        "Label": "Ardira Insights Summary",
+        "NamespacePrefix": "ArdiraSurvey"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v68.0/sobjects/EntityDefinition/01Iaj00000GLj4Y"
+        },
+        "QualifiedApiName": "ArdiraSurvey__Notification_Queue__c",
+        "Label": "Ardira Notification Queue",
+        "NamespacePrefix": "ArdiraSurvey"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v68.0/sobjects/EntityDefinition/01Iaj00000GLj4c"
+        },
+        "QualifiedApiName": "ArdiraSurvey__Question__c",
+        "Label": "Ardira Question",
+        "NamespacePrefix": "ArdiraSurvey"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v68.0/sobjects/EntityDefinition/01Iaj00000GLj4Z"
+        },
+        "QualifiedApiName": "ArdiraSurvey__Question_Dependency__c",
+        "Label": "Ardira Question Dependency",
+        "NamespacePrefix": "ArdiraSurvey"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v68.0/sobjects/EntityDefinition/01Iaj00000GLj4b"
+        },
+        "QualifiedApiName": "ArdiraSurvey__Question_Result__c",
+        "Label": "Ardira Question Result",
+        "NamespacePrefix": "ArdiraSurvey"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v68.0/sobjects/EntityDefinition/01Iaj00000GLj4a"
+        },
+        "QualifiedApiName": "ArdiraSurvey__Question_Result_Choice__c",
+        "Label": "Ardira Question Result Choice",
+        "NamespacePrefix": "ArdiraSurvey"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v68.0/sobjects/EntityDefinition/01Iaj00000GLj4d"
+        },
+        "QualifiedApiName": "ArdiraSurvey__Section__c",
+        "Label": "Ardira Section",
+        "NamespacePrefix": "ArdiraSurvey"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v68.0/sobjects/EntityDefinition/01Iaj00000GLj4l"
+        },
+        "QualifiedApiName": "ArdiraSurvey__Survey__c",
+        "Label": "Ardira Survey",
+        "NamespacePrefix": "ArdiraSurvey"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v68.0/sobjects/EntityDefinition/01Iaj00000GLj4e"
+        },
+        "QualifiedApiName": "ArdiraSurvey__Survey_Category_Result__c",
+        "Label": "Ardira Survey Category Result",
+        "NamespacePrefix": "ArdiraSurvey"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v68.0/sobjects/EntityDefinition/01Iaj00000GLj4f"
+        },
+        "QualifiedApiName": "ArdiraSurvey__Survey_Preferences__c",
+        "Label": "Ardira Survey Preferences",
+        "NamespacePrefix": "ArdiraSurvey"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v68.0/sobjects/EntityDefinition/01Iaj00000GLj4g"
+        },
+        "QualifiedApiName": "ArdiraSurvey__Survey_Response_Files__c",
+        "Label": "Ardira Survey Response File",
+        "NamespacePrefix": "ArdiraSurvey"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v68.0/sobjects/EntityDefinition/01Iaj00000GLj4h"
+        },
+        "QualifiedApiName": "ArdiraSurvey__Survey_Result__c",
+        "Label": "Ardira Survey Result",
+        "NamespacePrefix": "ArdiraSurvey"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v68.0/sobjects/EntityDefinition/01Iaj00000GLj4i"
+        },
+        "QualifiedApiName": "ArdiraSurvey__Survey_Workflow_Authorization__c",
+        "Label": "Ardira Survey Workflow Authorization",
+        "NamespacePrefix": "ArdiraSurvey"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v68.0/sobjects/EntityDefinition/01Iaj00000GLj4j"
+        },
+        "QualifiedApiName": "ArdiraSurvey__Survey_Workflow_Stage__c",
+        "Label": "Ardira Survey Workflow Stage",
+        "NamespacePrefix": "ArdiraSurvey"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v68.0/sobjects/EntityDefinition/01Iaj00000GLj4k"
+        },
+        "QualifiedApiName": "ArdiraSurvey__Survey_Workflow_Transition_Log__c",
+        "Label": "Ardira Survey Workflow Transition Log",
+        "NamespacePrefix": "ArdiraSurvey"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v68.0/sobjects/EntityDefinition/01Iaj00000GLj4m"
+        },
+        "QualifiedApiName": "ArdiraSurvey__Translation__c",
+        "Label": "Ardira Translation",
+        "NamespacePrefix": "ArdiraSurvey"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v68.0/sobjects/EntityDefinition/Asset"
+        },
+        "QualifiedApiName": "Asset",
+        "Label": "Asset",
+        "NamespacePrefix": null
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v68.0/sobjects/EntityDefinition/AssetAction"
+        },
+        "QualifiedApiName": "AssetAction",
+        "Label": "Asset Action",
+        "NamespacePrefix": null
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v68.0/sobjects/EntityDefinition/AssetActionSource"
+        },
+        "QualifiedApiName": "AssetActionSource",
+        "Label": "Asset Action Source",
+        "NamespacePrefix": null
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v68.0/sobjects/EntityDefinition/AssetRelationship"
+        },
+        "QualifiedApiName": "AssetRelationship",
+        "Label": "Asset Relationship",
+        "NamespacePrefix": null
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v68.0/sobjects/EntityDefinition/AssetStatePeriod"
+        },
+        "QualifiedApiName": "AssetStatePeriod",
+        "Label": "Asset State Period",
+        "NamespacePrefix": null
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v68.0/sobjects/EntityDefinition/AssignedResource"
+        },
+        "QualifiedApiName": "AssignedResource",
+        "Label": "Assigned Resource",
+        "NamespacePrefix": null
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v68.0/sobjects/EntityDefinition/AssociatedLocation"
+        },
+        "QualifiedApiName": "AssociatedLocation",
+        "Label": "Associated Location",
+        "NamespacePrefix": null
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v68.0/sobjects/EntityDefinition/AuthorizationForm"
+        },
+        "QualifiedApiName": "AuthorizationForm",
+        "Label": "Authorization Form",
+        "NamespacePrefix": null
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v68.0/sobjects/EntityDefinition/AuthorizationFormConsent"
+        },
+        "QualifiedApiName": "AuthorizationFormConsent",
+        "Label": "Authorization Form Consent",
+        "NamespacePrefix": null
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v68.0/sobjects/EntityDefinition/AuthorizationFormDataUse"
+        },
+        "QualifiedApiName": "AuthorizationFormDataUse",
+        "Label": "Authorization Form Data Use",
+        "NamespacePrefix": null
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v68.0/sobjects/EntityDefinition/AuthorizationFormText"
+        },
+        "QualifiedApiName": "AuthorizationFormText",
+        "Label": "Authorization Form Text",
+        "NamespacePrefix": null
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v68.0/sobjects/EntityDefinition/BusinessBrand"
+        },
+        "QualifiedApiName": "BusinessBrand",
+        "Label": "Business Brand",
+        "NamespacePrefix": null
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v68.0/sobjects/EntityDefinition/BuyerGroup"
+        },
+        "QualifiedApiName": "BuyerGroup",
+        "Label": "Buyer Group",
+        "NamespacePrefix": null
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v68.0/sobjects/EntityDefinition/Campaign"
+        },
+        "QualifiedApiName": "Campaign",
+        "Label": "Campaign",
+        "NamespacePrefix": null
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v68.0/sobjects/EntityDefinition/CampaignMember"
+        },
+        "QualifiedApiName": "CampaignMember",
+        "Label": "Campaign Member",
+        "NamespacePrefix": null
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v68.0/sobjects/EntityDefinition/CardPaymentMethod"
+        },
+        "QualifiedApiName": "CardPaymentMethod",
+        "Label": "Card Payment Method",
+        "NamespacePrefix": null
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v68.0/sobjects/EntityDefinition/CartDeliveryGroup"
+        },
+        "QualifiedApiName": "CartDeliveryGroup",
+        "Label": "Cart Delivery Group",
+        "NamespacePrefix": null
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v68.0/sobjects/EntityDefinition/CartDeliveryGroupMethod"
+        },
+        "QualifiedApiName": "CartDeliveryGroupMethod",
+        "Label": "Cart Delivery Group Method",
+        "NamespacePrefix": null
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v68.0/sobjects/EntityDefinition/CartDeliveryGroupMethodAdj"
+        },
+        "QualifiedApiName": "CartDeliveryGroupMethodAdj",
+        "Label": "Cart Delivery Group Method Adjustment",
+        "NamespacePrefix": null
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v68.0/sobjects/EntityDefinition/CartItem"
+        },
+        "QualifiedApiName": "CartItem",
+        "Label": "Cart Item",
+        "NamespacePrefix": null
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v68.0/sobjects/EntityDefinition/CartItemPriceAdjustment"
+        },
+        "QualifiedApiName": "CartItemPriceAdjustment",
+        "Label": "Cart Item Price Adjustment",
+        "NamespacePrefix": null
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v68.0/sobjects/EntityDefinition/CartTax"
+        },
+        "QualifiedApiName": "CartTax",
+        "Label": "Cart Tax",
+        "NamespacePrefix": null
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v68.0/sobjects/EntityDefinition/CartValidationOutput"
+        },
+        "QualifiedApiName": "CartValidationOutput",
+        "Label": "Cart Message",
+        "NamespacePrefix": null
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v68.0/sobjects/EntityDefinition/Case"
+        },
+        "QualifiedApiName": "Case",
+        "Label": "Case",
+        "NamespacePrefix": null
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v68.0/sobjects/EntityDefinition/CaseRelatedIssue"
+        },
+        "QualifiedApiName": "CaseRelatedIssue",
+        "Label": "Case Related Issue",
+        "NamespacePrefix": null
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v68.0/sobjects/EntityDefinition/ChangeRequest"
+        },
+        "QualifiedApiName": "ChangeRequest",
+        "Label": "Change Request",
+        "NamespacePrefix": null
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v68.0/sobjects/EntityDefinition/ChangeRequestRelatedIssue"
+        },
+        "QualifiedApiName": "ChangeRequestRelatedIssue",
+        "Label": "Change Request Related Issue",
+        "NamespacePrefix": null
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v68.0/sobjects/EntityDefinition/ChangeRequestRelatedItem"
+        },
+        "QualifiedApiName": "ChangeRequestRelatedItem",
+        "Label": "Change Request Related Item",
+        "NamespacePrefix": null
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v68.0/sobjects/EntityDefinition/ChannelProgram"
+        },
+        "QualifiedApiName": "ChannelProgram",
+        "Label": "Channel Program",
+        "NamespacePrefix": null
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v68.0/sobjects/EntityDefinition/ChannelProgramLevel"
+        },
+        "QualifiedApiName": "ChannelProgramLevel",
+        "Label": "Channel Program Level",
+        "NamespacePrefix": null
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v68.0/sobjects/EntityDefinition/ChannelProgramMember"
+        },
+        "QualifiedApiName": "ChannelProgramMember",
+        "Label": "Channel Program Member",
+        "NamespacePrefix": null
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v68.0/sobjects/EntityDefinition/CommSubscription"
+        },
+        "QualifiedApiName": "CommSubscription",
+        "Label": "Communication Subscription",
+        "NamespacePrefix": null
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v68.0/sobjects/EntityDefinition/CommSubscriptionChannelType"
+        },
+        "QualifiedApiName": "CommSubscriptionChannelType",
+        "Label": "Communication Subscription Channel Type",
+        "NamespacePrefix": null
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v68.0/sobjects/EntityDefinition/CommSubscriptionConsent"
+        },
+        "QualifiedApiName": "CommSubscriptionConsent",
+        "Label": "Communication Subscription Consent",
+        "NamespacePrefix": null
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v68.0/sobjects/EntityDefinition/CommSubscriptionTiming"
+        },
+        "QualifiedApiName": "CommSubscriptionTiming",
+        "Label": "Communication Subscription Timing",
+        "NamespacePrefix": null
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v68.0/sobjects/EntityDefinition/ConsumptionRate"
+        },
+        "QualifiedApiName": "ConsumptionRate",
+        "Label": "Consumption Rate",
+        "NamespacePrefix": null
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v68.0/sobjects/EntityDefinition/ConsumptionSchedule"
+        },
+        "QualifiedApiName": "ConsumptionSchedule",
+        "Label": "Consumption Schedule",
+        "NamespacePrefix": null
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v68.0/sobjects/EntityDefinition/Contact"
+        },
+        "QualifiedApiName": "Contact",
+        "Label": "Contact",
+        "NamespacePrefix": null
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v68.0/sobjects/EntityDefinition/ContactCleanInfo"
+        },
+        "QualifiedApiName": "ContactCleanInfo",
+        "Label": "Contact Clean Info",
+        "NamespacePrefix": null
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v68.0/sobjects/EntityDefinition/ContactPointAddress"
+        },
+        "QualifiedApiName": "ContactPointAddress",
+        "Label": "Contact Point Address",
+        "NamespacePrefix": null
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v68.0/sobjects/EntityDefinition/ContactPointConsent"
+        },
+        "QualifiedApiName": "ContactPointConsent",
+        "Label": "Contact Point Consent",
+        "NamespacePrefix": null
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v68.0/sobjects/EntityDefinition/ContactPointEmail"
+        },
+        "QualifiedApiName": "ContactPointEmail",
+        "Label": "Contact Point Email",
+        "NamespacePrefix": null
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v68.0/sobjects/EntityDefinition/ContactPointOttSvc"
+        },
+        "QualifiedApiName": "ContactPointOttSvc",
+        "Label": "Contact Point OTT Service",
+        "NamespacePrefix": null
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v68.0/sobjects/EntityDefinition/ContactPointPhone"
+        },
+        "QualifiedApiName": "ContactPointPhone",
+        "Label": "Contact Point Phone",
+        "NamespacePrefix": null
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v68.0/sobjects/EntityDefinition/ContactPointTypeConsent"
+        },
+        "QualifiedApiName": "ContactPointTypeConsent",
+        "Label": "Contact Point Type Consent",
+        "NamespacePrefix": null
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v68.0/sobjects/EntityDefinition/ContactRequest"
+        },
+        "QualifiedApiName": "ContactRequest",
+        "Label": "Contact Request",
+        "NamespacePrefix": null
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v68.0/sobjects/EntityDefinition/ContentVersion"
+        },
+        "QualifiedApiName": "ContentVersion",
+        "Label": "Content Version",
+        "NamespacePrefix": null
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v68.0/sobjects/EntityDefinition/Contract"
+        },
+        "QualifiedApiName": "Contract",
+        "Label": "Contract",
+        "NamespacePrefix": null
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v68.0/sobjects/EntityDefinition/ContractLineItem"
+        },
+        "QualifiedApiName": "ContractLineItem",
+        "Label": "Contract Line Item",
+        "NamespacePrefix": null
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v68.0/sobjects/EntityDefinition/ConvEntryRelatedRecordCopy"
+        },
+        "QualifiedApiName": "ConvEntryRelatedRecordCopy",
+        "Label": "Conv Entry Related Record Copy",
+        "NamespacePrefix": null
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v68.0/sobjects/EntityDefinition/ConversationEntryCopy"
+        },
+        "QualifiedApiName": "ConversationEntryCopy",
+        "Label": "Conversation Entry Copy",
+        "NamespacePrefix": null
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v68.0/sobjects/EntityDefinition/Coupon"
+        },
+        "QualifiedApiName": "Coupon",
+        "Label": "Coupon",
+        "NamespacePrefix": null
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v68.0/sobjects/EntityDefinition/CreditMemo"
+        },
+        "QualifiedApiName": "CreditMemo",
+        "Label": "Credit Memo",
+        "NamespacePrefix": null
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v68.0/sobjects/EntityDefinition/CreditMemoInvApplication"
+        },
+        "QualifiedApiName": "CreditMemoInvApplication",
+        "Label": "Credit Memo Invoice Application",
+        "NamespacePrefix": null
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v68.0/sobjects/EntityDefinition/CreditMemoLine"
+        },
+        "QualifiedApiName": "CreditMemoLine",
+        "Label": "Credit Memo Line",
+        "NamespacePrefix": null
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v68.0/sobjects/EntityDefinition/Customer"
+        },
+        "QualifiedApiName": "Customer",
+        "Label": "Customer",
+        "NamespacePrefix": null
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v68.0/sobjects/EntityDefinition/DandBCompany"
+        },
+        "QualifiedApiName": "DandBCompany",
+        "Label": "D&B Company",
+        "NamespacePrefix": null
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v68.0/sobjects/EntityDefinition/DataKitDeploymentLog"
+        },
+        "QualifiedApiName": "DataKitDeploymentLog",
+        "Label": "Data Kit Deployment Log",
+        "NamespacePrefix": null
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v68.0/sobjects/EntityDefinition/DataMaskCustomValueLibrary"
+        },
+        "QualifiedApiName": "DataMaskCustomValueLibrary",
+        "Label": "Custom Library",
+        "NamespacePrefix": null
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v68.0/sobjects/EntityDefinition/DataQueryWorkspace"
+        },
+        "QualifiedApiName": "DataQueryWorkspace",
+        "Label": "Query Editor",
+        "NamespacePrefix": null
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v68.0/sobjects/EntityDefinition/DataUseLegalBasis"
+        },
+        "QualifiedApiName": "DataUseLegalBasis",
+        "Label": "Data Use Legal Basis",
+        "NamespacePrefix": null
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v68.0/sobjects/EntityDefinition/DataUsePurpose"
+        },
+        "QualifiedApiName": "DataUsePurpose",
+        "Label": "Data Use Purpose",
+        "NamespacePrefix": null
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v68.0/sobjects/EntityDefinition/DelegatedAccount"
+        },
+        "QualifiedApiName": "DelegatedAccount",
+        "Label": "External Managed Account",
+        "NamespacePrefix": null
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v68.0/sobjects/EntityDefinition/DeliveryEstimationSetup"
+        },
+        "QualifiedApiName": "DeliveryEstimationSetup",
+        "Label": "Delivery Estimation Setup",
+        "NamespacePrefix": null
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v68.0/sobjects/EntityDefinition/DevopsActivityLog"
+        },
+        "QualifiedApiName": "DevopsActivityLog",
+        "Label": "Activity History",
+        "NamespacePrefix": null
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v68.0/sobjects/EntityDefinition/DevopsPipeline"
+        },
+        "QualifiedApiName": "DevopsPipeline",
+        "Label": "Pipeline",
+        "NamespacePrefix": null
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v68.0/sobjects/EntityDefinition/DevopsProject"
+        },
+        "QualifiedApiName": "DevopsProject",
+        "Label": "Project",
+        "NamespacePrefix": null
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v68.0/sobjects/EntityDefinition/DigitalWallet"
+        },
+        "QualifiedApiName": "DigitalWallet",
+        "Label": "Digital Wallet",
+        "NamespacePrefix": null
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v68.0/sobjects/EntityDefinition/DuplicateRecordItem"
+        },
+        "QualifiedApiName": "DuplicateRecordItem",
+        "Label": "Duplicate Record Item",
+        "NamespacePrefix": null
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v68.0/sobjects/EntityDefinition/DuplicateRecordSet"
+        },
+        "QualifiedApiName": "DuplicateRecordSet",
+        "Label": "Duplicate Record Set",
+        "NamespacePrefix": null
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v68.0/sobjects/EntityDefinition/EmailMessage"
+        },
+        "QualifiedApiName": "EmailMessage",
+        "Label": "Email Message",
+        "NamespacePrefix": null
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v68.0/sobjects/EntityDefinition/EngagementChannelType"
+        },
+        "QualifiedApiName": "EngagementChannelType",
+        "Label": "Engagement Channel Type",
+        "NamespacePrefix": null
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v68.0/sobjects/EntityDefinition/EngagementChannelWorkType"
+        },
+        "QualifiedApiName": "EngagementChannelWorkType",
+        "Label": "Engagement Channel Work Type",
+        "NamespacePrefix": null
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v68.0/sobjects/EntityDefinition/Entitlement"
+        },
+        "QualifiedApiName": "Entitlement",
+        "Label": "Entitlement",
+        "NamespacePrefix": null
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v68.0/sobjects/EntityDefinition/EntityMilestone"
+        },
+        "QualifiedApiName": "EntityMilestone",
+        "Label": "Object Milestone",
+        "NamespacePrefix": null
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v68.0/sobjects/EntityDefinition/Event"
+        },
+        "QualifiedApiName": "Event",
+        "Label": "Event",
+        "NamespacePrefix": null
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v68.0/sobjects/EntityDefinition/01Iaj00000GRGFa"
+        },
+        "QualifiedApiName": "evsprk__Batch_Job__c",
+        "Label": "Batch Job",
+        "NamespacePrefix": "evsprk"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v68.0/sobjects/EntityDefinition/01Iaj00000GRGFZ"
+        },
+        "QualifiedApiName": "evsprk__Batch_Job_Schedule__c",
+        "Label": "Batch Job Schedule",
+        "NamespacePrefix": "evsprk"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v68.0/sobjects/EntityDefinition/01Iaj00000GRGFb"
+        },
+        "QualifiedApiName": "evsprk__Communication_Plan__c",
+        "Label": "Communication Plan",
+        "NamespacePrefix": "evsprk"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v68.0/sobjects/EntityDefinition/01Iaj00000GRGFc"
+        },
+        "QualifiedApiName": "evsprk__Communication_Rule__c",
+        "Label": "Communication Rule",
+        "NamespacePrefix": "evsprk"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v68.0/sobjects/EntityDefinition/01Iaj00000GRGFd"
+        },
+        "QualifiedApiName": "evsprk__Delegate__c",
+        "Label": "Delegate/Guest",
+        "NamespacePrefix": "evsprk"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v68.0/sobjects/EntityDefinition/01Iaj00000GRGFe"
+        },
+        "QualifiedApiName": "evsprk__Document_Rule__c",
+        "Label": "Document Rule",
+        "NamespacePrefix": "evsprk"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v68.0/sobjects/EntityDefinition/01Iaj00000GRGFf"
+        },
+        "QualifiedApiName": "evsprk__Document_Template__c",
+        "Label": "Document Template",
+        "NamespacePrefix": "evsprk"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v68.0/sobjects/EntityDefinition/01Iaj00000GRGFj"
+        },
+        "QualifiedApiName": "evsprk__Event_Action__c",
+        "Label": "Event Action",
+        "NamespacePrefix": "evsprk"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v68.0/sobjects/EntityDefinition/01Iaj00000GRGFm"
+        },
+        "QualifiedApiName": "evsprk__Event_Booking__c",
+        "Label": "Event Booking",
+        "NamespacePrefix": "evsprk"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v68.0/sobjects/EntityDefinition/01Iaj00000GRGFl"
+        },
+        "QualifiedApiName": "evsprk__Event_Booking_Item__c",
+        "Label": "Event Booking Item",
+        "NamespacePrefix": "evsprk"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v68.0/sobjects/EntityDefinition/01Iaj00000GRGFk"
+        },
+        "QualifiedApiName": "evsprk__Event_Booking_Item_Allocation__c",
+        "Label": "Event Booking Item Allocation",
+        "NamespacePrefix": "evsprk"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v68.0/sobjects/EntityDefinition/01Iaj00000GRGFo"
+        },
+        "QualifiedApiName": "evsprk__Event_Collection__c",
+        "Label": "Event Collection",
+        "NamespacePrefix": "evsprk"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v68.0/sobjects/EntityDefinition/01Iaj00000GRGFn"
+        },
+        "QualifiedApiName": "evsprk__Event_Collection_Event__c",
+        "Label": "Event Collection Event",
+        "NamespacePrefix": "evsprk"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v68.0/sobjects/EntityDefinition/01Iaj00000GRGFp"
+        },
+        "QualifiedApiName": "evsprk__Event_Content__c",
+        "Label": "Event Content",
+        "NamespacePrefix": "evsprk"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v68.0/sobjects/EntityDefinition/01Iaj00000GRGFq"
+        },
+        "QualifiedApiName": "evsprk__Event_Financial_Transaction__c",
+        "Label": "Event Financial Transaction",
+        "NamespacePrefix": "evsprk"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v68.0/sobjects/EntityDefinition/01Iaj00000GRGFs"
+        },
+        "QualifiedApiName": "evsprk__Event_Form__c",
+        "Label": "Event Form",
+        "NamespacePrefix": "evsprk"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v68.0/sobjects/EntityDefinition/01Iaj00000GRGFr"
+        },
+        "QualifiedApiName": "evsprk__Event_Form_Field__c",
+        "Label": "Event Form Field",
+        "NamespacePrefix": "evsprk"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v68.0/sobjects/EntityDefinition/01Iaj00000GRGFt"
+        },
+        "QualifiedApiName": "evsprk__Event_Function__c",
+        "Label": "Event/Function",
+        "NamespacePrefix": "evsprk"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v68.0/sobjects/EntityDefinition/01Iaj00000GRGFu"
+        },
+        "QualifiedApiName": "evsprk__Event_Job_Log__c",
+        "Label": "Event Job Log",
+        "NamespacePrefix": "evsprk"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v68.0/sobjects/EntityDefinition/01Iaj00000GRGFv"
+        },
+        "QualifiedApiName": "evsprk__Event_Mailing_List__c",
+        "Label": "Event Mailing List",
+        "NamespacePrefix": "evsprk"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v68.0/sobjects/EntityDefinition/01Iaj00000GRGFw"
+        },
+        "QualifiedApiName": "evsprk__Event_Microsite_Template__c",
+        "Label": "Event Microsite Template",
+        "NamespacePrefix": "evsprk"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v68.0/sobjects/EntityDefinition/01Iaj00000GRGFx"
+        },
+        "QualifiedApiName": "evsprk__Event_Onsite_Configuration__c",
+        "Label": "Event Onsite Configuration",
+        "NamespacePrefix": "evsprk"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v68.0/sobjects/EntityDefinition/01Iaj00000GRGFy"
+        },
+        "QualifiedApiName": "evsprk__Event_Pricing_Rule__c",
+        "Label": "Event Pricing Rule",
+        "NamespacePrefix": "evsprk"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v68.0/sobjects/EntityDefinition/01Iaj00000GRGFz"
+        },
+        "QualifiedApiName": "evsprk__Event_Print_Server__c",
+        "Label": "Event Print Server",
+        "NamespacePrefix": "evsprk"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v68.0/sobjects/EntityDefinition/01Iaj00000GRGG0"
+        },
+        "QualifiedApiName": "evsprk__Event_Registration__c",
+        "Label": "Event Registration",
+        "NamespacePrefix": "evsprk"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v68.0/sobjects/EntityDefinition/01Iaj00000GRGG2"
+        },
+        "QualifiedApiName": "evsprk__Event_Session__c",
+        "Label": "Event Session",
+        "NamespacePrefix": "evsprk"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v68.0/sobjects/EntityDefinition/01Iaj00000GRGG1"
+        },
+        "QualifiedApiName": "evsprk__Event_Session_Booking__c",
+        "Label": "Event Session Booking",
+        "NamespacePrefix": "evsprk"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v68.0/sobjects/EntityDefinition/01Iaj00000GRGG3"
+        },
+        "QualifiedApiName": "evsprk__Event_Theme__c",
+        "Label": "Event Theme",
+        "NamespacePrefix": "evsprk"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v68.0/sobjects/EntityDefinition/01Iaj00000GRGG4"
+        },
+        "QualifiedApiName": "evsprk__Event_Value_Mapping__c",
+        "Label": "Event Value Mapping",
+        "NamespacePrefix": "evsprk"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v68.0/sobjects/EntityDefinition/01Iaj00000GRGG5"
+        },
+        "QualifiedApiName": "evsprk__Event_Video__c",
+        "Label": "Event Video",
+        "NamespacePrefix": "evsprk"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v68.0/sobjects/EntityDefinition/01Iaj00000GRGFg"
+        },
+        "QualifiedApiName": "evsprk__EventSpark_Internal_Use__c",
+        "Label": "EventSpark Internal Use",
+        "NamespacePrefix": "evsprk"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v68.0/sobjects/EntityDefinition/01Iaj00000GRGG6"
+        },
+        "QualifiedApiName": "evsprk__Lookup__c",
+        "Label": "Custom Lookup Data",
+        "NamespacePrefix": "evsprk"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v68.0/sobjects/EntityDefinition/01Iaj00000GRGG7"
+        },
+        "QualifiedApiName": "evsprk__Onsite_App_Configuration__c",
+        "Label": "Onsite App Configuration",
+        "NamespacePrefix": "evsprk"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v68.0/sobjects/EntityDefinition/01Iaj00000GRGG8"
+        },
+        "QualifiedApiName": "evsprk__Organising_Entity__c",
+        "Label": "Organizing Entity",
+        "NamespacePrefix": "evsprk"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v68.0/sobjects/EntityDefinition/01Iaj00000GRGGL"
+        },
+        "QualifiedApiName": "evsprk__rflib_Log_Event__e",
+        "Label": "Log Event",
+        "NamespacePrefix": "evsprk"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v68.0/sobjects/EntityDefinition/01Iaj00000GRGG9"
+        },
+        "QualifiedApiName": "evsprk__Session__c",
+        "Label": "Session",
+        "NamespacePrefix": "evsprk"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v68.0/sobjects/EntityDefinition/01Iaj00000GRGGA"
+        },
+        "QualifiedApiName": "evsprk__Space__c",
+        "Label": "Space",
+        "NamespacePrefix": "evsprk"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v68.0/sobjects/EntityDefinition/01Iaj00000GRGGC"
+        },
+        "QualifiedApiName": "evsprk__Staff__c",
+        "Label": "Staff/Speaker",
+        "NamespacePrefix": "evsprk"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v68.0/sobjects/EntityDefinition/01Iaj00000GRGGB"
+        },
+        "QualifiedApiName": "evsprk__Staff_Speaker_Category__c",
+        "Label": "Staff/Speaker Category",
+        "NamespacePrefix": "evsprk"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v68.0/sobjects/EntityDefinition/01Iaj00000GRGGD"
+        },
+        "QualifiedApiName": "evsprk__Ticket_Plan__c",
+        "Label": "Ticket Plan",
+        "NamespacePrefix": "evsprk"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v68.0/sobjects/EntityDefinition/01Iaj00000GRGGE"
+        },
+        "QualifiedApiName": "evsprk__Ticket_Type__c",
+        "Label": "Ticket Type",
+        "NamespacePrefix": "evsprk"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v68.0/sobjects/EntityDefinition/01Iaj00000GRGGF"
+        },
+        "QualifiedApiName": "evsprk__Time_Zone__c",
+        "Label": "Time Zone",
+        "NamespacePrefix": "evsprk"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v68.0/sobjects/EntityDefinition/01Iaj00000GRGGG"
+        },
+        "QualifiedApiName": "evsprk__Venue__c",
+        "Label": "Venue",
+        "NamespacePrefix": "evsprk"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v68.0/sobjects/EntityDefinition/01Iaj00000GRGGH"
+        },
+        "QualifiedApiName": "evsprk__Virtual_Event_Service_Notification__e",
+        "Label": "Virtual Event Service Notification",
+        "NamespacePrefix": "evsprk"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v68.0/sobjects/EntityDefinition/01Iaj00000GRGGI"
+        },
+        "QualifiedApiName": "evsprk__Virtual_Platform_Connection__c",
+        "Label": "Virtual Platform Connection",
+        "NamespacePrefix": "evsprk"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v68.0/sobjects/EntityDefinition/01Iaj00000GRGGK"
+        },
+        "QualifiedApiName": "evsprk__Voucher__c",
+        "Label": "Voucher",
+        "NamespacePrefix": "evsprk"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v68.0/sobjects/EntityDefinition/01Iaj00000GRGGJ"
+        },
+        "QualifiedApiName": "evsprk__Voucher_Validity__c",
+        "Label": "Voucher Validity",
+        "NamespacePrefix": "evsprk"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v68.0/sobjects/EntityDefinition/FinanceBalanceSnapshot"
+        },
+        "QualifiedApiName": "FinanceBalanceSnapshot",
+        "Label": "Finance Balance Snapshot",
+        "NamespacePrefix": null
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v68.0/sobjects/EntityDefinition/FinanceTransaction"
+        },
+        "QualifiedApiName": "FinanceTransaction",
+        "Label": "Finance Transaction",
+        "NamespacePrefix": null
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v68.0/sobjects/EntityDefinition/FlowOrchestrationInstance"
+        },
+        "QualifiedApiName": "FlowOrchestrationInstance",
+        "Label": "Orchestration Run",
+        "NamespacePrefix": null
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v68.0/sobjects/EntityDefinition/FlowOrchestrationInstanceLink"
+        },
+        "QualifiedApiName": "FlowOrchestrationInstanceLink",
+        "Label": "Orchestration Run Link",
+        "NamespacePrefix": null
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v68.0/sobjects/EntityDefinition/FlowOrchestrationLog"
+        },
+        "QualifiedApiName": "FlowOrchestrationLog",
+        "Label": "Orchestration Run Log",
+        "NamespacePrefix": null
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v68.0/sobjects/EntityDefinition/FlowOrchestrationStageInstance"
+        },
+        "QualifiedApiName": "FlowOrchestrationStageInstance",
+        "Label": "Orchestration Stage Run",
+        "NamespacePrefix": null
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v68.0/sobjects/EntityDefinition/FlowOrchestrationStepInstance"
+        },
+        "QualifiedApiName": "FlowOrchestrationStepInstance",
+        "Label": "Orchestration Step Run",
+        "NamespacePrefix": null
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v68.0/sobjects/EntityDefinition/FlowOrchestrationWorkItem"
+        },
+        "QualifiedApiName": "FlowOrchestrationWorkItem",
+        "Label": "Orchestration Work Item",
+        "NamespacePrefix": null
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v68.0/sobjects/EntityDefinition/FulfillmentOrder"
+        },
+        "QualifiedApiName": "FulfillmentOrder",
+        "Label": "Fulfillment Order",
+        "NamespacePrefix": null
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v68.0/sobjects/EntityDefinition/FulfillmentOrderItemAdjustment"
+        },
+        "QualifiedApiName": "FulfillmentOrderItemAdjustment",
+        "Label": "Fulfillment Order Item Adjustment",
+        "NamespacePrefix": null
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v68.0/sobjects/EntityDefinition/FulfillmentOrderItemTax"
+        },
+        "QualifiedApiName": "FulfillmentOrderItemTax",
+        "Label": "Fulfillment Order Item Tax",
+        "NamespacePrefix": null
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v68.0/sobjects/EntityDefinition/FulfillmentOrderLineItem"
+        },
+        "QualifiedApiName": "FulfillmentOrderLineItem",
+        "Label": "Fulfillment Order Product",
+        "NamespacePrefix": null
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v68.0/sobjects/EntityDefinition/Idea"
+        },
+        "QualifiedApiName": "Idea",
+        "Label": "Idea",
+        "NamespacePrefix": null
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v68.0/sobjects/EntityDefinition/Image"
+        },
+        "QualifiedApiName": "Image",
+        "Label": "Image",
+        "NamespacePrefix": null
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v68.0/sobjects/EntityDefinition/Incident"
+        },
+        "QualifiedApiName": "Incident",
+        "Label": "Incident",
+        "NamespacePrefix": null
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v68.0/sobjects/EntityDefinition/IncidentRelatedItem"
+        },
+        "QualifiedApiName": "IncidentRelatedItem",
+        "Label": "Incident Related Item",
+        "NamespacePrefix": null
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v68.0/sobjects/EntityDefinition/Individual"
+        },
+        "QualifiedApiName": "Individual",
+        "Label": "Individual",
+        "NamespacePrefix": null
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v68.0/sobjects/EntityDefinition/InventoryItemReservation"
+        },
+        "QualifiedApiName": "InventoryItemReservation",
+        "Label": "Inventory Item Reservation",
+        "NamespacePrefix": null
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v68.0/sobjects/EntityDefinition/InventoryReservation"
+        },
+        "QualifiedApiName": "InventoryReservation",
+        "Label": "Inventory Reservation",
+        "NamespacePrefix": null
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v68.0/sobjects/EntityDefinition/Invoice"
+        },
+        "QualifiedApiName": "Invoice",
+        "Label": "Invoice",
+        "NamespacePrefix": null
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v68.0/sobjects/EntityDefinition/InvoiceLine"
+        },
+        "QualifiedApiName": "InvoiceLine",
+        "Label": "Invoice Line",
+        "NamespacePrefix": null
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v68.0/sobjects/EntityDefinition/Lead"
+        },
+        "QualifiedApiName": "Lead",
+        "Label": "Lead",
+        "NamespacePrefix": null
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v68.0/sobjects/EntityDefinition/LeadCleanInfo"
+        },
+        "QualifiedApiName": "LeadCleanInfo",
+        "Label": "Lead Clean Info",
+        "NamespacePrefix": null
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v68.0/sobjects/EntityDefinition/LegalEntity"
+        },
+        "QualifiedApiName": "LegalEntity",
+        "Label": "Legal Entity",
+        "NamespacePrefix": null
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v68.0/sobjects/EntityDefinition/LiveAgentSession"
+        },
+        "QualifiedApiName": "LiveAgentSession",
+        "Label": "Chat Session",
+        "NamespacePrefix": null
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v68.0/sobjects/EntityDefinition/LiveChatTranscript"
+        },
+        "QualifiedApiName": "LiveChatTranscript",
+        "Label": "Chat Transcript",
+        "NamespacePrefix": null
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v68.0/sobjects/EntityDefinition/LiveChatVisitor"
+        },
+        "QualifiedApiName": "LiveChatVisitor",
+        "Label": "Chat Visitor",
+        "NamespacePrefix": null
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v68.0/sobjects/EntityDefinition/Location"
+        },
+        "QualifiedApiName": "Location",
+        "Label": "Location",
+        "NamespacePrefix": null
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v68.0/sobjects/EntityDefinition/LocationGroup"
+        },
+        "QualifiedApiName": "LocationGroup",
+        "Label": "Location Group",
+        "NamespacePrefix": null
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v68.0/sobjects/EntityDefinition/LocationGroupAssignment"
+        },
+        "QualifiedApiName": "LocationGroupAssignment",
+        "Label": "Location Group Assignment",
+        "NamespacePrefix": null
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v68.0/sobjects/EntityDefinition/LocationShippingCarrierMethod"
+        },
+        "QualifiedApiName": "LocationShippingCarrierMethod",
+        "Label": "Location Shipping Carrier Method",
+        "NamespacePrefix": null
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v68.0/sobjects/EntityDefinition/Macro"
+        },
+        "QualifiedApiName": "Macro",
+        "Label": "Macro",
+        "NamespacePrefix": null
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v68.0/sobjects/EntityDefinition/MessagingEndUser"
+        },
+        "QualifiedApiName": "MessagingEndUser",
+        "Label": "Messaging User",
+        "NamespacePrefix": null
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v68.0/sobjects/EntityDefinition/MessagingSession"
+        },
+        "QualifiedApiName": "MessagingSession",
+        "Label": "Messaging Session",
+        "NamespacePrefix": null
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v68.0/sobjects/EntityDefinition/MessagingSessionClient"
+        },
+        "QualifiedApiName": "MessagingSessionClient",
+        "Label": "Messaging Session Client",
+        "NamespacePrefix": null
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v68.0/sobjects/EntityDefinition/OperatingHours"
+        },
+        "QualifiedApiName": "OperatingHours",
+        "Label": "Operating Hours",
+        "NamespacePrefix": null
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v68.0/sobjects/EntityDefinition/OperatingHoursHoliday"
+        },
+        "QualifiedApiName": "OperatingHoursHoliday",
+        "Label": "Operating Hours Holiday",
+        "NamespacePrefix": null
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v68.0/sobjects/EntityDefinition/Opportunity"
+        },
+        "QualifiedApiName": "Opportunity",
+        "Label": "Opportunity",
+        "NamespacePrefix": null
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v68.0/sobjects/EntityDefinition/OpportunityContactRole"
+        },
+        "QualifiedApiName": "OpportunityContactRole",
+        "Label": "Opportunity Contact Role",
+        "NamespacePrefix": null
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v68.0/sobjects/EntityDefinition/OpportunityLineItem"
+        },
+        "QualifiedApiName": "OpportunityLineItem",
+        "Label": "Opportunity Product",
+        "NamespacePrefix": null
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v68.0/sobjects/EntityDefinition/Order"
+        },
+        "QualifiedApiName": "Order",
+        "Label": "Order",
+        "NamespacePrefix": null
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v68.0/sobjects/EntityDefinition/OrderItem"
+        },
+        "QualifiedApiName": "OrderItem",
+        "Label": "Order Product",
+        "NamespacePrefix": null
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v68.0/sobjects/EntityDefinition/OutboundEngagementTemplate"
+        },
+        "QualifiedApiName": "OutboundEngagementTemplate",
+        "Label": "Outbound Engagement Template",
+        "NamespacePrefix": null
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v68.0/sobjects/EntityDefinition/OutboundEngmtContentRsrc"
+        },
+        "QualifiedApiName": "OutboundEngmtContentRsrc",
+        "Label": "Outbound Engagement Content Resource",
+        "NamespacePrefix": null
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v68.0/sobjects/EntityDefinition/PartnerFundAllocation"
+        },
+        "QualifiedApiName": "PartnerFundAllocation",
+        "Label": "Partner Fund Allocation",
+        "NamespacePrefix": null
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v68.0/sobjects/EntityDefinition/PartnerFundClaim"
+        },
+        "QualifiedApiName": "PartnerFundClaim",
+        "Label": "Partner Fund Claim",
+        "NamespacePrefix": null
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v68.0/sobjects/EntityDefinition/PartnerFundRequest"
+        },
+        "QualifiedApiName": "PartnerFundRequest",
+        "Label": "Partner Fund Request",
+        "NamespacePrefix": null
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v68.0/sobjects/EntityDefinition/PartnerMarketingBudget"
+        },
+        "QualifiedApiName": "PartnerMarketingBudget",
+        "Label": "Partner Marketing Budget",
+        "NamespacePrefix": null
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v68.0/sobjects/EntityDefinition/PartyConsent"
+        },
+        "QualifiedApiName": "PartyConsent",
+        "Label": "Party Consent",
+        "NamespacePrefix": null
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v68.0/sobjects/EntityDefinition/Payment"
+        },
+        "QualifiedApiName": "Payment",
+        "Label": "Payment",
+        "NamespacePrefix": null
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v68.0/sobjects/EntityDefinition/PaymentAuthAdjustment"
+        },
+        "QualifiedApiName": "PaymentAuthAdjustment",
+        "Label": "Payment Authorization Adjustment",
+        "NamespacePrefix": null
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v68.0/sobjects/EntityDefinition/PaymentAuthorization"
+        },
+        "QualifiedApiName": "PaymentAuthorization",
+        "Label": "Payment Authorization",
+        "NamespacePrefix": null
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v68.0/sobjects/EntityDefinition/PaymentCredit"
+        },
+        "QualifiedApiName": "PaymentCredit",
+        "Label": "Payment Credit",
+        "NamespacePrefix": null
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v68.0/sobjects/EntityDefinition/PaymentCreditLinePayment"
+        },
+        "QualifiedApiName": "PaymentCreditLinePayment",
+        "Label": "Payment Credit Line Payment",
+        "NamespacePrefix": null
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v68.0/sobjects/EntityDefinition/PaymentCreditTransaction"
+        },
+        "QualifiedApiName": "PaymentCreditTransaction",
+        "Label": "Payment Credit Transaction",
+        "NamespacePrefix": null
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v68.0/sobjects/EntityDefinition/PaymentGateway"
+        },
+        "QualifiedApiName": "PaymentGateway",
+        "Label": "Payment Gateway",
+        "NamespacePrefix": null
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v68.0/sobjects/EntityDefinition/PaymentGroup"
+        },
+        "QualifiedApiName": "PaymentGroup",
+        "Label": "Payment Group",
+        "NamespacePrefix": null
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v68.0/sobjects/EntityDefinition/PaymentLineInvoice"
+        },
+        "QualifiedApiName": "PaymentLineInvoice",
+        "Label": "Payment Line Invoice",
+        "NamespacePrefix": null
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v68.0/sobjects/EntityDefinition/PaymentMethod"
+        },
+        "QualifiedApiName": "PaymentMethod",
+        "Label": "Payment Method",
+        "NamespacePrefix": null
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v68.0/sobjects/EntityDefinition/Pricebook2"
+        },
+        "QualifiedApiName": "Pricebook2",
+        "Label": "Price Book",
+        "NamespacePrefix": null
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v68.0/sobjects/EntityDefinition/PricebookEntry"
+        },
+        "QualifiedApiName": "PricebookEntry",
+        "Label": "Price Book Entry",
+        "NamespacePrefix": null
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v68.0/sobjects/EntityDefinition/PrivacyRTBFRequest"
+        },
+        "QualifiedApiName": "PrivacyRTBFRequest",
+        "Label": "Privacy RTBF Request",
+        "NamespacePrefix": null
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v68.0/sobjects/EntityDefinition/Problem"
+        },
+        "QualifiedApiName": "Problem",
+        "Label": "Problem",
+        "NamespacePrefix": null
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v68.0/sobjects/EntityDefinition/ProblemIncident"
+        },
+        "QualifiedApiName": "ProblemIncident",
+        "Label": "Related Problem and Incident",
+        "NamespacePrefix": null
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v68.0/sobjects/EntityDefinition/ProblemRelatedItem"
+        },
+        "QualifiedApiName": "ProblemRelatedItem",
+        "Label": "Problem Related Item",
+        "NamespacePrefix": null
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v68.0/sobjects/EntityDefinition/ProcessException"
+        },
+        "QualifiedApiName": "ProcessException",
+        "Label": "Process Exception",
+        "NamespacePrefix": null
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v68.0/sobjects/EntityDefinition/Product2"
+        },
+        "QualifiedApiName": "Product2",
+        "Label": "Product",
+        "NamespacePrefix": null
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v68.0/sobjects/EntityDefinition/ProductAttribute"
+        },
+        "QualifiedApiName": "ProductAttribute",
+        "Label": "Product Attribute",
+        "NamespacePrefix": null
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v68.0/sobjects/EntityDefinition/ProductAttributeSetProduct"
+        },
+        "QualifiedApiName": "ProductAttributeSetProduct",
+        "Label": "Product Attribute Set Product",
+        "NamespacePrefix": null
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v68.0/sobjects/EntityDefinition/ProductCatalog"
+        },
+        "QualifiedApiName": "ProductCatalog",
+        "Label": "Catalog",
+        "NamespacePrefix": null
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v68.0/sobjects/EntityDefinition/ProductCategory"
+        },
+        "QualifiedApiName": "ProductCategory",
+        "Label": "Category",
+        "NamespacePrefix": null
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v68.0/sobjects/EntityDefinition/ProductCategoryProduct"
+        },
+        "QualifiedApiName": "ProductCategoryProduct",
+        "Label": "Product Category Product",
+        "NamespacePrefix": null
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v68.0/sobjects/EntityDefinition/ProductConsumptionSchedule"
+        },
+        "QualifiedApiName": "ProductConsumptionSchedule",
+        "Label": "Product Consumption Schedule",
+        "NamespacePrefix": null
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v68.0/sobjects/EntityDefinition/Promotion"
+        },
+        "QualifiedApiName": "Promotion",
+        "Label": "Promotion",
+        "NamespacePrefix": null
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v68.0/sobjects/EntityDefinition/PromotionLineItemRule"
+        },
+        "QualifiedApiName": "PromotionLineItemRule",
+        "Label": "Promotion Line Item Rule",
+        "NamespacePrefix": null
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v68.0/sobjects/EntityDefinition/PromotionMarketSegment"
+        },
+        "QualifiedApiName": "PromotionMarketSegment",
+        "Label": "Promotion Market Segment",
+        "NamespacePrefix": null
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v68.0/sobjects/EntityDefinition/PromotionQualifier"
+        },
+        "QualifiedApiName": "PromotionQualifier",
+        "Label": "Promotion Qualifier",
+        "NamespacePrefix": null
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v68.0/sobjects/EntityDefinition/PromotionSegment"
+        },
+        "QualifiedApiName": "PromotionSegment",
+        "Label": "Promotion Segment",
+        "NamespacePrefix": null
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v68.0/sobjects/EntityDefinition/PromotionSegmentBuyerGroup"
+        },
+        "QualifiedApiName": "PromotionSegmentBuyerGroup",
+        "Label": "Promotion Segment Buyer Group",
+        "NamespacePrefix": null
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v68.0/sobjects/EntityDefinition/PromotionSegmentSalesStore"
+        },
+        "QualifiedApiName": "PromotionSegmentSalesStore",
+        "Label": "Promotion Segment Sales Store",
+        "NamespacePrefix": null
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v68.0/sobjects/EntityDefinition/PromotionTarget"
+        },
+        "QualifiedApiName": "PromotionTarget",
+        "Label": "Promotion Target",
+        "NamespacePrefix": null
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v68.0/sobjects/EntityDefinition/PromotionTier"
+        },
+        "QualifiedApiName": "PromotionTier",
+        "Label": "Promotion Tier",
+        "NamespacePrefix": null
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v68.0/sobjects/EntityDefinition/QuickText"
+        },
+        "QualifiedApiName": "QuickText",
+        "Label": "Quick Text",
+        "NamespacePrefix": null
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v68.0/sobjects/EntityDefinition/Recommendation"
+        },
+        "QualifiedApiName": "Recommendation",
+        "Label": "Recommendation",
+        "NamespacePrefix": null
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v68.0/sobjects/EntityDefinition/RecordAction"
+        },
+        "QualifiedApiName": "RecordAction",
+        "Label": "Record Action",
+        "NamespacePrefix": null
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v68.0/sobjects/EntityDefinition/Refund"
+        },
+        "QualifiedApiName": "Refund",
+        "Label": "Refund",
+        "NamespacePrefix": null
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v68.0/sobjects/EntityDefinition/RefundLinePayment"
+        },
+        "QualifiedApiName": "RefundLinePayment",
+        "Label": "Refund Line Payment",
+        "NamespacePrefix": null
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v68.0/sobjects/EntityDefinition/ResourceAbsence"
+        },
+        "QualifiedApiName": "ResourceAbsence",
+        "Label": "Resource Absence",
+        "NamespacePrefix": null
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v68.0/sobjects/EntityDefinition/ResourcePreference"
+        },
+        "QualifiedApiName": "ResourcePreference",
+        "Label": "Resource Preference",
+        "NamespacePrefix": null
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v68.0/sobjects/EntityDefinition/ReturnOrder"
+        },
+        "QualifiedApiName": "ReturnOrder",
+        "Label": "Return Order",
+        "NamespacePrefix": null
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v68.0/sobjects/EntityDefinition/ReturnOrderItemAdjustment"
+        },
+        "QualifiedApiName": "ReturnOrderItemAdjustment",
+        "Label": "Return Order Item Adjustment",
+        "NamespacePrefix": null
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v68.0/sobjects/EntityDefinition/ReturnOrderItemTax"
+        },
+        "QualifiedApiName": "ReturnOrderItemTax",
+        "Label": "Return Order Item Tax",
+        "NamespacePrefix": null
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v68.0/sobjects/EntityDefinition/ReturnOrderLineItem"
+        },
+        "QualifiedApiName": "ReturnOrderLineItem",
+        "Label": "Return Order Line Item",
+        "NamespacePrefix": null
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v68.0/sobjects/EntityDefinition/SalesStore"
+        },
+        "QualifiedApiName": "SalesStore",
+        "Label": "Sales Store",
+        "NamespacePrefix": null
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v68.0/sobjects/EntityDefinition/Scorecard"
+        },
+        "QualifiedApiName": "Scorecard",
+        "Label": "Scorecard",
+        "NamespacePrefix": null
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v68.0/sobjects/EntityDefinition/ScorecardAssociation"
+        },
+        "QualifiedApiName": "ScorecardAssociation",
+        "Label": "Scorecard Association",
+        "NamespacePrefix": null
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v68.0/sobjects/EntityDefinition/ScorecardMetric"
+        },
+        "QualifiedApiName": "ScorecardMetric",
+        "Label": "Scorecard Metric",
+        "NamespacePrefix": null
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v68.0/sobjects/EntityDefinition/Seller"
+        },
+        "QualifiedApiName": "Seller",
+        "Label": "Seller",
+        "NamespacePrefix": null
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v68.0/sobjects/EntityDefinition/ServiceAppointment"
+        },
+        "QualifiedApiName": "ServiceAppointment",
+        "Label": "Service Appointment",
+        "NamespacePrefix": null
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v68.0/sobjects/EntityDefinition/ServiceAppointmentAttendee"
+        },
+        "QualifiedApiName": "ServiceAppointmentAttendee",
+        "Label": "Service Appointment Attendee",
+        "NamespacePrefix": null
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v68.0/sobjects/EntityDefinition/ServiceContract"
+        },
+        "QualifiedApiName": "ServiceContract",
+        "Label": "Service Contract",
+        "NamespacePrefix": null
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v68.0/sobjects/EntityDefinition/ServiceRequestRelatedRecord"
+        },
+        "QualifiedApiName": "ServiceRequestRelatedRecord",
+        "Label": "Service Request Related Record",
+        "NamespacePrefix": null
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v68.0/sobjects/EntityDefinition/ServiceResource"
+        },
+        "QualifiedApiName": "ServiceResource",
+        "Label": "Service Resource",
+        "NamespacePrefix": null
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v68.0/sobjects/EntityDefinition/ServiceResourceSkill"
+        },
+        "QualifiedApiName": "ServiceResourceSkill",
+        "Label": "Service Resource Skill",
+        "NamespacePrefix": null
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v68.0/sobjects/EntityDefinition/ServiceTerritory"
+        },
+        "QualifiedApiName": "ServiceTerritory",
+        "Label": "Service Territory",
+        "NamespacePrefix": null
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v68.0/sobjects/EntityDefinition/ServiceTerritoryMember"
+        },
+        "QualifiedApiName": "ServiceTerritoryMember",
+        "Label": "Service Territory Member",
+        "NamespacePrefix": null
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v68.0/sobjects/EntityDefinition/ServiceTerritoryWorkType"
+        },
+        "QualifiedApiName": "ServiceTerritoryWorkType",
+        "Label": "Service Territory Work Type",
+        "NamespacePrefix": null
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v68.0/sobjects/EntityDefinition/Shift"
+        },
+        "QualifiedApiName": "Shift",
+        "Label": "Shift",
+        "NamespacePrefix": null
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v68.0/sobjects/EntityDefinition/ShiftEngagementChannel"
+        },
+        "QualifiedApiName": "ShiftEngagementChannel",
+        "Label": "Shift Engagement Channel",
+        "NamespacePrefix": null
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v68.0/sobjects/EntityDefinition/ShiftWorkTopic"
+        },
+        "QualifiedApiName": "ShiftWorkTopic",
+        "Label": "Shift Work Topic",
+        "NamespacePrefix": null
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v68.0/sobjects/EntityDefinition/Shipment"
+        },
+        "QualifiedApiName": "Shipment",
+        "Label": "Shipment",
+        "NamespacePrefix": null
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v68.0/sobjects/EntityDefinition/ShipmentItem"
+        },
+        "QualifiedApiName": "ShipmentItem",
+        "Label": "Shipment Item",
+        "NamespacePrefix": null
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v68.0/sobjects/EntityDefinition/ShippingCarrier"
+        },
+        "QualifiedApiName": "ShippingCarrier",
+        "Label": "Shipping Carrier",
+        "NamespacePrefix": null
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v68.0/sobjects/EntityDefinition/ShippingCarrierMethod"
+        },
+        "QualifiedApiName": "ShippingCarrierMethod",
+        "Label": "Shipping Carrier Method",
+        "NamespacePrefix": null
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v68.0/sobjects/EntityDefinition/SkillRequirement"
+        },
+        "QualifiedApiName": "SkillRequirement",
+        "Label": "Skill Requirement",
+        "NamespacePrefix": null
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v68.0/sobjects/EntityDefinition/Solution"
+        },
+        "QualifiedApiName": "Solution",
+        "Label": "Solution",
+        "NamespacePrefix": null
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v68.0/sobjects/EntityDefinition/Task"
+        },
+        "QualifiedApiName": "Task",
+        "Label": "Task",
+        "NamespacePrefix": null
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v68.0/sobjects/EntityDefinition/TenantConsumptionAlert"
+        },
+        "QualifiedApiName": "TenantConsumptionAlert",
+        "Label": "Utilization Alert",
+        "NamespacePrefix": null
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v68.0/sobjects/EntityDefinition/TimeSlot"
+        },
+        "QualifiedApiName": "TimeSlot",
+        "Label": "Time Slot",
+        "NamespacePrefix": null
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v68.0/sobjects/EntityDefinition/UnstructuredStorageSpace"
+        },
+        "QualifiedApiName": "UnstructuredStorageSpace",
+        "Label": "UnstructuredStorageSpace",
+        "NamespacePrefix": null
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v68.0/sobjects/EntityDefinition/User"
+        },
+        "QualifiedApiName": "User",
+        "Label": "User",
+        "NamespacePrefix": null
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v68.0/sobjects/EntityDefinition/UserProvisioningRequest"
+        },
+        "QualifiedApiName": "UserProvisioningRequest",
+        "Label": "User Provisioning Request",
+        "NamespacePrefix": null
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v68.0/sobjects/EntityDefinition/UserServicePresence"
+        },
+        "QualifiedApiName": "UserServicePresence",
+        "Label": "User Presence",
+        "NamespacePrefix": null
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v68.0/sobjects/EntityDefinition/VoiceCall"
+        },
+        "QualifiedApiName": "VoiceCall",
+        "Label": "Voice Call",
+        "NamespacePrefix": null
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v68.0/sobjects/EntityDefinition/Waitlist"
+        },
+        "QualifiedApiName": "Waitlist",
+        "Label": "Waitlist",
+        "NamespacePrefix": null
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v68.0/sobjects/EntityDefinition/WaitlistParticipant"
+        },
+        "QualifiedApiName": "WaitlistParticipant",
+        "Label": "Waitlist Participant",
+        "NamespacePrefix": null
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v68.0/sobjects/EntityDefinition/WaitlistServiceResource"
+        },
+        "QualifiedApiName": "WaitlistServiceResource",
+        "Label": "Waitlist Service Resource",
+        "NamespacePrefix": null
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v68.0/sobjects/EntityDefinition/WaitlistWorkType"
+        },
+        "QualifiedApiName": "WaitlistWorkType",
+        "Label": "Waitlist Work Type",
+        "NamespacePrefix": null
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v68.0/sobjects/EntityDefinition/WebCart"
+        },
+        "QualifiedApiName": "WebCart",
+        "Label": "Cart",
+        "NamespacePrefix": null
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v68.0/sobjects/EntityDefinition/WebCartActivityLog"
+        },
+        "QualifiedApiName": "WebCartActivityLog",
+        "Label": "Cart Activity Log",
+        "NamespacePrefix": null
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v68.0/sobjects/EntityDefinition/WebCartAdjustmentBasis"
+        },
+        "QualifiedApiName": "WebCartAdjustmentBasis",
+        "Label": "Cart Adjustment Basis",
+        "NamespacePrefix": null
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v68.0/sobjects/EntityDefinition/WebCartAdjustmentGroup"
+        },
+        "QualifiedApiName": "WebCartAdjustmentGroup",
+        "Label": "Cart Adjustment Group",
+        "NamespacePrefix": null
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v68.0/sobjects/EntityDefinition/WebCartCollaborator"
+        },
+        "QualifiedApiName": "WebCartCollaborator",
+        "Label": "Cart Collaborator",
+        "NamespacePrefix": null
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v68.0/sobjects/EntityDefinition/WebCartCredit"
+        },
+        "QualifiedApiName": "WebCartCredit",
+        "Label": "Web Cart Credit",
+        "NamespacePrefix": null
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v68.0/sobjects/EntityDefinition/WebStore"
+        },
+        "QualifiedApiName": "WebStore",
+        "Label": "Store",
+        "NamespacePrefix": null
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v68.0/sobjects/EntityDefinition/WebStoreBuyerGroup"
+        },
+        "QualifiedApiName": "WebStoreBuyerGroup",
+        "Label": "Store Buyer Group",
+        "NamespacePrefix": null
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v68.0/sobjects/EntityDefinition/WebStoreCatalog"
+        },
+        "QualifiedApiName": "WebStoreCatalog",
+        "Label": "Store Catalog",
+        "NamespacePrefix": null
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v68.0/sobjects/EntityDefinition/WebStoreInventorySource"
+        },
+        "QualifiedApiName": "WebStoreInventorySource",
+        "Label": "Web Store Inventory Source",
+        "NamespacePrefix": null
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v68.0/sobjects/EntityDefinition/WorkItem"
+        },
+        "QualifiedApiName": "WorkItem",
+        "Label": "Work Item",
+        "NamespacePrefix": null
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v68.0/sobjects/EntityDefinition/WorkOrder"
+        },
+        "QualifiedApiName": "WorkOrder",
+        "Label": "Work Order",
+        "NamespacePrefix": null
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v68.0/sobjects/EntityDefinition/WorkOrderLineItem"
+        },
+        "QualifiedApiName": "WorkOrderLineItem",
+        "Label": "Work Order Line Item",
+        "NamespacePrefix": null
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v68.0/sobjects/EntityDefinition/WorkPlan"
+        },
+        "QualifiedApiName": "WorkPlan",
+        "Label": "Work Plan",
+        "NamespacePrefix": null
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v68.0/sobjects/EntityDefinition/WorkPlanTemplate"
+        },
+        "QualifiedApiName": "WorkPlanTemplate",
+        "Label": "Work Plan Template",
+        "NamespacePrefix": null
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v68.0/sobjects/EntityDefinition/WorkPlanTemplateEntry"
+        },
+        "QualifiedApiName": "WorkPlanTemplateEntry",
+        "Label": "Work Plan Template Entry",
+        "NamespacePrefix": null
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v68.0/sobjects/EntityDefinition/WorkStep"
+        },
+        "QualifiedApiName": "WorkStep",
+        "Label": "Work Step",
+        "NamespacePrefix": null
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v68.0/sobjects/EntityDefinition/WorkStepTemplate"
+        },
+        "QualifiedApiName": "WorkStepTemplate",
+        "Label": "Work Step Template",
+        "NamespacePrefix": null
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v68.0/sobjects/EntityDefinition/WorkType"
+        },
+        "QualifiedApiName": "WorkType",
+        "Label": "Work Type",
+        "NamespacePrefix": null
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v68.0/sobjects/EntityDefinition/WorkTypeGroup"
+        },
+        "QualifiedApiName": "WorkTypeGroup",
+        "Label": "Work Type Group",
+        "NamespacePrefix": null
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v68.0/sobjects/EntityDefinition/WorkTypeGroupMember"
+        },
+        "QualifiedApiName": "WorkTypeGroupMember",
+        "Label": "Work Type Group Member",
+        "NamespacePrefix": null
+      }
+    ],
+    "totalSize": 311,
+    "done": true
+  },
+  "warnings": []
+}

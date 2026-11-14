@@ -1,0 +1,262 @@
+<template>
+  <section class="workspace" aria-labelledby="workspace-title">
+    <header>
+      <p class="eyebrow">KOBENTRA / BUSINESS WORKSPACE</p>
+      <h1 id="workspace-title">Your next chapter,<br />across borders.</h1>
+      <p>Private by default. Published with purpose.</p>
+    </header>
+    <template lwc:if={guest}
+      ><p class="notice" role="status">
+        Sign in with a provisioned business account to open your workspace.
+      </p></template
+    >
+    <template lwc:else>
+      <div class="toolbar">
+        <lightning-button
+          label="Refresh workspace"
+          onclick={load}
+          disabled={busy}
+        ></lightning-button>
+        <p>
+          Assessment updates appear after internal reconciliation. Refresh to
+          retrieve the latest state.
+        </p>
+      </div>
+      <template lwc:if={busy}
+        ><lightning-spinner
+          alternative-text="Updating workspace"
+          size="small"
+        ></lightning-spinner
+      ></template>
+      <template lwc:if={error}
+        ><p class="notice error" role="alert">{error}</p></template
+      >
+      <template lwc:if={success}
+        ><p class="notice" role="status">{success}</p></template
+      >
+      <template lwc:if={data}>
+        <div class="overview">
+          <article class="panel business">
+            <p class="eyebrow">YOUR BUSINESS</p>
+            <h2>{data.profile.name}</h2>
+            <p>{data.profile.country} · {data.profile.industry}</p>
+            <p>{data.profile.summary}</p>
+            <ul>
+              <template for:each={data.markets} for:item="market"
+                ><li key={market}>{market}</li></template
+              >
+            </ul>
+          </article>
+          <article class="panel">
+            <p class="eyebrow">SURVEYVISTA QUALIFICATION</p>
+            <h2>{data.assessment.status}</h2>
+            <p>{assessmentMessage}</p>
+            <template lwc:if={data.assessment.completedAt}
+              ><p>
+                Verified completion:
+                <lightning-formatted-date-time
+                  value={data.assessment.completedAt}
+                  year="numeric"
+                  month="short"
+                  day="numeric"
+                ></lightning-formatted-date-time></p></template
+            ><lightning-button
+              variant="brand"
+              label="Request assessment"
+              onclick={request}
+              disabled={requestDisabled}
+            ></lightning-button>
+          </article>
+        </div>
+        <section class="panel" aria-labelledby="draft-title">
+          <p class="eyebrow">CREATE AN OPPORTUNITY</p>
+          <h2 id="draft-title">Open a new possibility.</h2>
+          <p>
+            Save privately first. Publication requires your profile, market
+            preferences and verified assessment completion.
+          </p>
+          <div class="form-grid">
+            <lightning-input
+              data-draft
+              name="title"
+              label="Opportunity title"
+              value={form.title}
+              maxlength="160"
+              required
+              onchange={change}
+              disabled={busy}
+            ></lightning-input>
+            <lightning-combobox
+              data-draft
+              name="type"
+              label="Opportunity type"
+              value={form.type}
+              options={types}
+              required
+              onchange={change}
+              disabled={busy}
+            ></lightning-combobox>
+            <lightning-input
+              data-draft
+              name="category"
+              label="Product or business category"
+              value={form.category}
+              maxlength="100"
+              required
+              onchange={change}
+              disabled={busy}
+            ></lightning-input>
+            <lightning-input
+              data-draft
+              name="country"
+              label="Target country"
+              value={form.country}
+              maxlength="80"
+              required
+              onchange={change}
+              disabled={busy}
+            ></lightning-input>
+            <lightning-combobox
+              data-draft
+              name="stage"
+              label="Commercial stage"
+              value={form.stage}
+              options={stages}
+              required
+              onchange={change}
+              disabled={busy}
+            ></lightning-combobox>
+          </div>
+          <lightning-textarea
+            data-draft
+            name="summary"
+            label="Business opportunity description"
+            value={form.summary}
+            maxlength="1200"
+            required
+            onchange={change}
+            disabled={busy}
+          ></lightning-textarea>
+          <div class="actions">
+            <lightning-button
+              variant="brand"
+              label="Save private draft"
+              onclick={save}
+              disabled={busy}
+            ></lightning-button>
+          </div>
+        </section>
+        <section aria-labelledby="own-title">
+          <h2 class="section-title" id="own-title">Your opportunities</h2>
+          <div class="cards">
+            <template for:each={opportunities} for:item="row"
+              ><article class="panel" key={row.id}>
+                <span class="badge">{row.publication}</span>
+                <h3>{row.title}</h3>
+                <p>{row.type} · {row.category} · {row.country}</p>
+                <p>{row.summary}</p>
+                <p>Commercial stage: {row.stage}</p>
+                <lightning-button
+                  label={row.actionLabel}
+                  data-id={row.id}
+                  data-state={row.action}
+                  onclick={publish}
+                  disabled={busy}
+                ></lightning-button></article
+            ></template>
+            <template lwc:if={opportunities.length}></template
+            ><template lwc:else
+              ><p class="notice">
+                No opportunities yet. Create your first private draft above.
+              </p></template
+            >
+          </div>
+        </section>
+        <section aria-labelledby="discover-title">
+          <h2 class="section-title" id="discover-title">
+            Opportunities for your market
+          </h2>
+          <p class="disclaimer">
+            Published business-provided information. Verify partner details
+            before commercial agreements.
+          </p>
+          <div class="cards">
+            <template for:each={discovery} for:item="row"
+              ><article class="panel" key={row.id}>
+                <span class="badge">PUBLISHED OPPORTUNITY</span>
+                <h3>{row.title}</h3>
+                <p>{row.businessName} · {row.businessCountry}</p>
+                <p>{row.category} → {row.country}</p>
+                <p>{row.summary}</p>
+                <p class="reason">{row.reason}</p>
+                <lightning-button
+                  label="Express interest"
+                  data-id={row.id}
+                  onclick={interest}
+                  disabled={busy}
+                ></lightning-button></article
+            ></template>
+            <template lwc:if={discovery.length}></template
+            ><template lwc:else
+              ><p class="notice">
+                No visible opportunities for your market yet. A verified
+                assessment and configured member sharing are required for
+                discovery.
+              </p></template
+            >
+          </div>
+        </section>
+        <section aria-labelledby="interest-title">
+          <h2 class="section-title" id="interest-title">
+            Partnership interests
+          </h2>
+          <div class="cards">
+            <template for:each={interests} for:item="row"
+              ><article class="panel" key={row.id}>
+                <span class="badge">{row.status}</span>
+                <h3>{row.title}</h3>
+                <p>{row.businessName} → {row.receiverName}</p>
+                <div class="actions">
+                  <template lwc:if={row.canDecide}
+                    ><lightning-button
+                      label="Accept interest"
+                      data-id={row.id}
+                      data-decision="Accepted"
+                      onclick={decision}
+                      disabled={busy}
+                    ></lightning-button
+                    ><lightning-button
+                      label="Decline interest"
+                      data-id={row.id}
+                      data-decision="Declined"
+                      onclick={decision}
+                      disabled={busy}
+                    ></lightning-button></template
+                  ><template lwc:if={row.canWithdraw}
+                    ><lightning-button
+                      label="Withdraw interest"
+                      data-id={row.id}
+                      data-decision="Withdrawn"
+                      onclick={decision}
+                      disabled={busy}
+                    ></lightning-button
+                  ></template>
+                </div>
+                <p class="disclaimer">
+                  An interest decision does not release contact details or
+                  create a commercial agreement.
+                </p>
+              </article></template
+            >
+            <template lwc:if={interests.length}></template
+            ><template lwc:else
+              ><p class="notice">
+                No partnership interests recorded.
+              </p></template
+            >
+          </div>
+        </section>
+      </template>
+    </template>
+  </section>
+</template>

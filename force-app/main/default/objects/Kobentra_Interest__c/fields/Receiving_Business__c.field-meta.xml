@@ -1,0 +1,7 @@
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+  <fullName>Receiving_Business__c</fullName>
+  <formula>CASESAFEID(Opportunity__r.Business__c)</formula>
+  <formulaTreatBlanksAs>BlankAsBlank</formulaTreatBlanksAs>
+  <label>Receiving Business Identifier</label>
+  <type>Text</type>
+</CustomField>
